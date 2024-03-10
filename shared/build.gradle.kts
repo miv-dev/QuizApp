@@ -21,13 +21,26 @@ kotlin {
         iosTarget.binaries.framework {
             baseName = "Shared"
             isStatic = true
+
+            export(libs.decompose.core)
+            export(libs.essenty.lifecycle)
+            export(libs.koin.core)
+            export(libs.mvikotlin.main)
+            export(libs.mvikotlin.core)
         }
     }
     
     sourceSets {
         commonMain.dependencies {
-            // put your Multiplatform dependencies here
-        }
+            api(libs.decompose.core)
+            api(libs.essenty.lifecycle)
+            api(libs.koin.core)
+            api(libs.mvikotlin.main)
+
+            api(libs.mvikotlin.core)
+            implementation(libs.mvikotlin.corotines)
+            api(libs.mvikotlin.rx)
+            api(libs.coroutines.core)        }
     }
 }
 
