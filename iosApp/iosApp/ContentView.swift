@@ -2,14 +2,32 @@ import SwiftUI
 import Shared
 
 struct ContentView: View {
-    @State private var showContent = false
+    @State private var componentHolder = ComponentHolder()
+
+
     var body: some View {
-        Text("")
+        RootView(component: componentHolder.root)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct RootView: View {
+    @StateValue
+    private var stack: ChildStack<AnyObject, RootComponentChild>
+
+
+    private var activeChild: RootComponentChild { stack.active.instance }
+
+    init(component: RootComponent) {
+        _stack = StateValue(component.stack)
+    }
+
+    var body: some View {
+
+        switch activeChild {
+        case let child as RootComponentChildHome:
+            HomeView(component: child.component)
+
+        default: EmptyView()
+        }
     }
 }

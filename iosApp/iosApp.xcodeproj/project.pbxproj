@@ -10,6 +10,16 @@
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		3323F1CE00A8FD15931534FB /* StateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323F13165C0F7F737336DFA /* StateValue.swift */; };
+		3323F34CAAA56F2A8BDE57FC /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323FD48CF6E05A0C41FC52D /* QuizView.swift */; };
+		3323F64F90D636EAF92F7C4D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323FF6D1E8741B884909AD8 /* HomeView.swift */; };
+		3323F78016806F8C5C323EF5 /* ComponentHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323F71A528AC43177768A96 /* ComponentHolder.swift */; };
+		3323F7AED996607DA457CB8E /* ObservableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323FA994A2D6F58B2AF4BE1 /* ObservableValue.swift */; };
+		3323F86A2CA16619E58283D0 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323F47AF663FAB9EE45D335 /* CustomSlider.swift */; };
+		3323FA11788BE75AEA477336 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323F661C0D2D0EFFC48C594 /* TrailingIconLabelStyle.swift */; };
+		3323FD2FC03FD1F51D02B427 /* QuizzesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323F5B1E504153F7228EBBE /* QuizzesView.swift */; };
+		3323FE3020FED109CAC33495 /* CustomLinearProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323F5656C778025E485D736 /* CustomLinearProgressViewStyle.swift */; };
+		3323FF1AF4458D235D4A8BDA /* QuizCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323F49FBB4FC239B14D88D3 /* QuizCardView.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,7 +27,17 @@
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
-		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3323F13165C0F7F737336DFA /* StateValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateValue.swift; sourceTree = "<group>"; };
+		3323F47AF663FAB9EE45D335 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		3323F49FBB4FC239B14D88D3 /* QuizCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCardView.swift; sourceTree = "<group>"; };
+		3323F5656C778025E485D736 /* CustomLinearProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLinearProgressViewStyle.swift; sourceTree = "<group>"; };
+		3323F5B1E504153F7228EBBE /* QuizzesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizzesView.swift; sourceTree = "<group>"; };
+		3323F661C0D2D0EFFC48C594 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		3323F71A528AC43177768A96 /* ComponentHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentHolder.swift; sourceTree = "<group>"; };
+		3323FA994A2D6F58B2AF4BE1 /* ObservableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableValue.swift; sourceTree = "<group>"; };
+		3323FD48CF6E05A0C41FC52D /* QuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		3323FF6D1E8741B884909AD8 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = iosApp.app; path = "Quiz App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB3632DC29227652001CCB65 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
@@ -40,6 +60,44 @@
 				058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3323F0B070485A0FCD53A17B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3323F47AF663FAB9EE45D335 /* CustomSlider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3323FA32A94D8E3B17B3B022 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3323F661C0D2D0EFFC48C594 /* TrailingIconLabelStyle.swift */,
+				3323F5656C778025E485D736 /* CustomLinearProgressViewStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		3323FAC488A078BE1ACC89E9 /* DecomposeHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				3323F13165C0F7F737336DFA /* StateValue.swift */,
+				3323FA994A2D6F58B2AF4BE1 /* ObservableValue.swift */,
+				3323F71A528AC43177768A96 /* ComponentHolder.swift */,
+			);
+			path = DecomposeHelpers;
+			sourceTree = "<group>";
+		};
+		3323FEA3DE0106E4F2C9C19F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3323FD48CF6E05A0C41FC52D /* QuizView.swift */,
+				3323F49FBB4FC239B14D88D3 /* QuizCardView.swift */,
+				3323FF6D1E8741B884909AD8 /* HomeView.swift */,
+				3323F5B1E504153F7228EBBE /* QuizzesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		42799AB246E5F90AF97AA0EF /* Frameworks */ = {
@@ -75,6 +133,10 @@
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
+				3323FAC488A078BE1ACC89E9 /* DecomposeHelpers */,
+				3323FEA3DE0106E4F2C9C19F /* Views */,
+				3323FA32A94D8E3B17B3B022 /* Styles */,
+				3323F0B070485A0FCD53A17B /* Components */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -185,6 +247,16 @@
 			files = (
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				3323F1CE00A8FD15931534FB /* StateValue.swift in Sources */,
+				3323F7AED996607DA457CB8E /* ObservableValue.swift in Sources */,
+				3323F78016806F8C5C323EF5 /* ComponentHolder.swift in Sources */,
+				3323F34CAAA56F2A8BDE57FC /* QuizView.swift in Sources */,
+				3323FA11788BE75AEA477336 /* TrailingIconLabelStyle.swift in Sources */,
+				3323FE3020FED109CAC33495 /* CustomLinearProgressViewStyle.swift in Sources */,
+				3323F86A2CA16619E58283D0 /* CustomSlider.swift in Sources */,
+				3323FF1AF4458D235D4A8BDA /* QuizCardView.swift in Sources */,
+				3323F64F90D636EAF92F7C4D /* HomeView.swift in Sources */,
+				3323FD2FC03FD1F51D02B427 /* QuizzesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +390,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "${TEAM_ID}";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
 				INFOPLIST_FILE = iosApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,9 +419,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "${TEAM_ID}";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)";
 				INFOPLIST_FILE = iosApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (

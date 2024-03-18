@@ -3,7 +3,9 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidApplication)
+    alias(libs.plugins.parcelize)
     alias(libs.plugins.jetbrainsCompose)
+
 }
 
 kotlin {
@@ -18,8 +20,15 @@ kotlin {
     sourceSets {
         
         androidMain.dependencies {
+            implementation(libs.androidx.core.ktx)
             implementation(libs.compose.ui.tooling.preview)
             implementation(libs.androidx.activity.compose)
+            implementation(libs.decompose.jetpack)
+            implementation(libs.androidx.material3)
+            implementation(project.dependencies.platform(libs.androidx.compose.bom))
+            implementation(libs.androidx.ui)
+            implementation(libs.androidx.ui.graphics)
+            implementation(libs.androidx.material.icons)
         }
         commonMain.dependencies {
             implementation(compose.runtime)

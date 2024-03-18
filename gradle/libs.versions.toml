@@ -19,6 +19,9 @@ essenty = "1.2.0"
 mvikotlin = "3.2.1"
 kotlinxCoroutines = "1.8.0-RC2"
 koin = "3.3.3"
+composeBom = "2023.08.00"
+parcelize = "1.9.22"
+
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -28,9 +31,12 @@ androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = 
 androidx-test-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-junit" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidx-espresso-core" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
-androidx-material = { group = "com.google.android.material", name = "material", version.ref = "androidx-material" }
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-material-icons = { group = "androidx.compose.material", name = "material-icons-extended" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
 compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
 
@@ -40,6 +46,7 @@ mvikotlin-main = { group = "com.arkivanov.mvikotlin", name = "mvikotlin-main", v
 mvikotlin-corotines = { group = "com.arkivanov.mvikotlin", name = "mvikotlin-extensions-coroutines", version.ref = "mvikotlin" }
 mvikotlin-rx = { group = "com.arkivanov.mvikotlin", name = "rx", version.ref = "mvikotlin" }
 decompose-core = { group = "com.arkivanov.decompose", name = "decompose", version.ref = "decompose" }
+decompose-jetpack = { group = "com.arkivanov.decompose", name = "extensions-compose-jetpack", version.ref = "decompose" }
 essenty-lifecycle = { group = "com.arkivanov.essenty", name = "lifecycle", version.ref = "essenty" }
 coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
 koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin"}
@@ -50,3 +57,4 @@ androidApplication = { id = "com.android.application", version.ref = "agp" }
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
 jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "parcelize" }
